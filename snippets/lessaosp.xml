@@ -48,6 +48,9 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="12.1-legacy-um" remote="lessaosp" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="lessaosp" />
 
+  <!-- External -->
+  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="lessaosp" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="lessaosp" />
