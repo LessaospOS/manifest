@@ -49,6 +49,7 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="lessaosp" />
 
   <!-- External -->
+  <project path="external/faceunlock" name="external_faceunlock" remote="gitlab" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
   <!-- Frameworks -->
@@ -61,6 +62,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="lessaosp" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="lessaosp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="lessaosp" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="lessaosp" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="lessaosp" />
